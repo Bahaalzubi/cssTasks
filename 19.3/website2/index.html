@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .top {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(230, 242, 247);
+        display: flex;
+        flex-wrap: wrap;
+      }
+      @media screen and (max-width: 900px){
+        .top{ flex-direction: column;
+        height: auto;
+    width: 100%;
+    align-content: center;
+
+
+}
+        
+      }
+      .left {
+        width: 50%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+      }
+      @media screen and (max-width: 900px){
+        .left{ flex-direction: row;
+        width: 100%;}
+      }
+      .right {
+        width: 50%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+      }
+      @media screen and (max-width: 700px){
+        .right{ flex-direction:row;
+        width: 100%;}
+
+      }
+      .rightbox {
+        width: 30%;
+        height: 130px;
+        background-color: rgb(130, 85, 85);
+      }
+      
+      .bar {
+        width: 100%;
+        height: 70px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      .bottom {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      @media screen and (max-width: 900px){
+        .bottom{ flex-direction: column;
+        height: auto;}
+      }
+      .chart {
+        width: 70%;
+        height: 350px;
+        background-color: black;
+      }
+      @media screen and (max-width: 900px){
+        .chart{ width: 100%;}
+      }
+      .boxes {
+        width: 30%;
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+      }
+      @media screen and (max-width: 900px){
+        .boxes{ flex-direction: column; height: auto; align-content: center; width: 100%;}
+      }
+      .box {
+        width: 40%;
+        height: 105px;
+        background-color: rgb(88, 94, 94);
+      }
+      @media screen and (max-width: 900px){
+        .box{ width: 100%; margin: auto;}
+      }
+      @media screen and (max-width: 900px){
+       img{width: 20px; height: 20px;}
+       body{font-size: smaller;}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="left">
+        <div class="rightbox" style="background-color: rgb(72, 120, 192)">
+          <img src="dashboard_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Dashboard</p>
+        </div>
+        <div
+          style="width: 60%; height: 130px; background-color: rgb(95, 122, 95)"
+        >
+          <img src="area_chart_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Charts</p>
+        </div>
+        <div style="width: 60%; height: 130px; background-color: brown">
+          <img src="assignment_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Forms</p>
+        </div>
+        <div class="rightbox" style="background-color: rgb(35, 35, 83)">
+          <img src="smart_button_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Buttons</p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="rightbox" style="background-color: chartreuse">
+          <img src="widgets_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Widgets</p>
+        </div>
+        <div class="rightbox" style="background-color: brown">
+          <img src="table_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Tables</p>
+        </div>
+        <div class="rightbox" style="background-color: rgb(35, 35, 83)">
+          <img src="open_with_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Full Width</p>
+        </div>
+        <div class="rightbox" style="background-color: rgb(72, 120, 192)">
+          <img src="edit_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Elements</p>
+        </div>
+        <div class="rightbox" style="background-color: rgb(95, 122, 95)">
+          <img src="event_available_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Calender</p>
+        </div>
+        <div class="rightbox" style="background-color: chartreuse">
+          <img src="warning_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>Errors</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar">
+      <h3>Site Analysis</h3>
+      <p style="color: rgba(0, 0, 0, 0.597)">Overview Of Latest Month</p>
+    </div>
+    <div class="bottom">
+      <div class="chart">
+        <img style="width: 100%; height: 350px;" src="Screenshot.png" alt="">
+      </div>
+      <div class="boxes">
+        <div class="box">
+          <img src="person_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>2540</p>
+        </div>
+        <div class="box">
+          <img src="add_FILL1_wght500_GRAD200_opsz48.svg" alt="" />
+          <p>120</p>
+        </div>
+        <div class="box">
+          <img src="shopping_cart_FILL1_wght400_GRAD0_opsz48.svg" alt="" />
+          <p>656</p>
+        </div>
+        <div class="box">
+          <img src="sell_FILL1_wght500_GRAD200_opsz48.svg" alt="" />
+          <p>9450</p>
+        </div>
+        <div class="box">
+          <img src="table_FILL0_wght500_GRAD200_opsz48.svg" alt="" />
+          <p>100</p>
+        </div>
+        <div class="box">
+          <img src="language_FILL0_wght500_GRAD200_opsz48.svg" alt="" />
+          <p>8540</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

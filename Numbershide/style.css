@@ -1,0 +1,16 @@
+li {
+   
+    display: inline-block;
+    padding: 10px;
+    background-color: red;
+   height: 1cm;
+    width: 2cm;
+    border: 1px solid;
+}
+h1 {
+    margin-top: -3px;
+    text-align: center;
+}
+.even {
+    display: none;
+}

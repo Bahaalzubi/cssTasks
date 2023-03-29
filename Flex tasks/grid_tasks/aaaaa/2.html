@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .items {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .top {
+        width: 100%;
+        height: 50px;
+        background-color: silver;
+      }
+      @media screen and (max-width: 900px) {
+        .search {
+          flex-direction: row;
+        }
+
+        .top {
+          width: 100%;
+          height: auto;
+        }
+        .items {
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+        }
+        .item2 {
+          width: 100%;
+        }
+      }
+      .nav2 {
+        word-spacing: 15px;
+        text-align: center;
+      }
+      .search {
+        width: 100%;
+        height: 50px;
+        margin-left: 15px;
+      }
+      .search {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      @media screen and (max-width: 900px) {
+        .left {
+          width: 100%;
+          text-align: center;
+          margin: auto;
+        }
+
+        .search {
+          width: 100%;
+          height: auto;
+        }
+
+        .search {
+          flex-direction: column;
+        }
+      }
+      .content {
+        width: 100%;
+        height: 465px;
+        background-image: url(banner.jpg);
+      }
+      .c1 {
+        display: flex;
+        flex-direction: column;
+      }
+      .all {
+        width: 100%;
+        height: 465px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+      }
+      .left {
+        width: 20%;
+        height: 490px;
+        border: solid rgba(25, 24, 24, 0.169) 1px;
+        float: left;
+        margin-top: 65px;
+      }
+      .bottom {
+        width: 80%;
+
+        height: 250px;
+
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 50px;
+      }
+      .box {
+        width: 20%;
+        height: 200px;
+
+        margin-top: 30px;
+      }
+      .right {
+        width: 70%;
+      }
+      @media screen and (max-width: 900px) {
+        .left {
+          width: 100%;
+          height: auto;
+        }
+        .items {
+          width: 100%;
+        }
+        .search {
+          width: 100%;
+        }
+        .all {
+          flex-direction: column;
+          width: 100%;
+          height: auto;
+          flex-wrap: wrap;
+        }
+
+        .bottom {
+          width: 100%;
+          height: auto;
+        }
+
+        .bottom {
+          flex-direction: column;
+        }
+        .content {
+          width: 100%;
+          height: auto;
+        }
+
+        .content {
+          flex-direction: column;
+          justify-content: center;
+        }
+        .content {
+          width: fit-content;
+        }
+        .top {
+          width: 100%;
+        }
+        .box {
+          width: 100%;
+        }
+
+        .right {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <span style="display: inline-block; margin-left: 150px"
+        ><p>Hello@colorilb.com</p></span
+      >
+      <span style="display: inline-block; margin-left: 20px">|</span>
+      <span style="display: inline-block; margin-left: 20px"
+        ><p>Free shipping forall order of $99</p></span
+      >
+      <span style="display: inline-block"
+        ><img
+          style="width: 15px; height: 15px"
+          src="facebook-app-symbol.png"
+          alt=""
+      /></span>
+      <span style="display: inline-block; margin-left: 10px"
+        ><img style="width: 15px; height: 15px" src="twitter.png" alt=""
+      /></span>
+      <span style="display: inline-block; margin-left: 10px"
+        ><img style="width: 15px; height: 15px" src="linkedin.png" alt=""
+      /></span>
+      <span style="display: inline-block; margin-left: 10px"
+        ><img style="width: 15px; height: 15px" src="pinterest.png" alt=""
+      /></span>
+    </div>
+    <div class="nav2">
+      <div style="display: inline-block"><h4>HOME</h4></div>
+      <div style="display: inline-block"><h4>SHOP</h4></div>
+      <div style="display: inline-block"><h4>PAGES</h4></div>
+      <div style="display: inline-block"><h4>BLOG</h4></div>
+      <div style="display: inline-block"><h4>CONTACT</h4></div>
+    </div>
+    <div class="all">
+      <div class="left">
+        <div
+          class="items"
+          style="
+            text-align: center;
+            background-color: rgb(23, 173, 91);
+            color: white;
+          "
+        >
+          <h2>All Departments</h2>
+        </div>
+
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+        <div class="item3" style="list-style: none"><p>fggg</p></div>
+      </div>
+      <div class="right">
+        <div class="search">
+          <div
+            style="
+              width: 40%;
+              height: 50px;
+              border: solid 1px rgb(168, 155, 155);
+            "
+          >
+            <h3>All Categories</h3>
+          </div>
+          <div style="width: 100px%; height: 50px">
+            <p style="color: rgba(27, 28, 29, 0.305)">What you need?</p>
+          </div>
+          <div style="width: 20%">
+            <button
+              style="
+                width: 100%;
+                height: 50px;
+                background-color: rgb(181, 181, 90);
+              "
+            >
+              Search
+            </button>
+          </div>
+        </div>
+        <div style="width: 100%" class="content">
+          <span
+            ><p
+              style="
+                color: orange;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              "
+            >
+              <b>Fruit Fresh</b>
+            </p></span
+          >
+          <span
+            ><h1
+              style="
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              <b>Vegetable</b>
+            </h1></span
+          >
+          <span
+            ><h1
+              style="
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+              "
+            >
+              <b>100% Organic</b>
+            </h1></span
+          >
+          <span><p>Free Pickup and Delivery Available</p></span>
+          <span
+            ><button
+              style="width: 120px; height: 35px; background-color: green"
+            >
+              SHOP NOW
+            </button></span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="box"><img src="1.jpg" alt="" /></div>
+      <div class="box"><img src="2.jpg" alt="" /></div>
+      <div class="box"><img src="3.jpg" alt="" /></div>
+      <div class="box"><img src="4.jpg" alt="" /></div>
+    </div>
+  </body>
+</html>

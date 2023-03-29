@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/boosted@5.2.3/dist/css/boosted.min.css" rel="stylesheet" integrity="sha384-zYFw+mxKy6r9zpAc1NoGiYBfQmxfvg7ONEMr81WeU+WLPPaLC9QTrNGFJTBi3EIn" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+    .container1{
+      display: flex;
+      margin: 0%;
+      padding: 0%;
+    }
+.right{
+  width: 70%;
+}
+.left{
+    width: 30%;
+}
+    </style>
+</head>
+
+<div class="container1">
+    <div class="left">
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.jpg" class="w-100">
+          </div>
+          <div class="carousel-item ">
+            <img src="2.jpg" class="w-100" >
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+
+
+    <div class="right">
+
+        <header >
+            <nav class="navbar navbar-dark bg-white navbar-expand-lg" aria-label="Global navigation - With one line title example">
+              <div class="container-xxl">
+          
+                <!-- Orange brand logo -->
+                <div class="navbar-brand me-auto">
+                  <a class="stretched-link" href="#">
+                    <img src="white.png" width="50" height="50">
+                  </a>
+                 <div style="font-size: medium; display: flex;">
+                <p>help</p>
+                 </div>
+                 </div>
+                </div>
+        
+            </nav>
+          </header>
+          <div class="d-flex align-items-center flex-column">
+            <div class="form-group col-lg-6 col-md-7">
+                <h1>Create an account</h1>
+            </div>
+            <div class="mb-4 form-group col-lg-6 col-md-7 ">
+                <label for="email" class="is-required">Email address<span class="sr-only"> (required)</span></label>
+                <div class="input-group ">
+                    <input name="email" type="text" class="form-control email  " id="email" value="">
+                                            </div>
+                <small>eg: username@domain.com </small>
+            </div>
+            <div class="mb-4 form-group col-lg-6 col-md-7 ">
+                <label for="mobile" class="is-required">Mobile<span class="sr-only"> (required)</span></label>
+                <div class="input-group ">
+                    <input name="mobile" type="text" class="form-control mobile  " id="mobile" value="">
+                                            </div>
+                <small>eg: 077********</small>
+            </div>
+            <div class="mb-1 form-group col-lg-6 col-md-7" style="position: relative;">
+                <label for="validationServer02" class="is-required">Create Password<span class="sr-only"> (required)</span></label>
+                <div class="input-group ">
+                    <input name="password" type="password" class="form-control password col-11 pr-0  " id="password" value="">
+                    <div class="d-flex align-items-center " onclick="showPass()">
+                        <i class="fa fa-eye-slash eye btn btn-light border-left-0" aria-hidden="true"></i>
+                    </div>
+                                            </div>
+                <small>The Password should be between 6-18 characters. </small>
+                <div class="invalid-feedback password-validation-message font-size-7 mb-3">
+                    the password should be at least (8 characters,1 uppercase, 1 number &amp; 1 special character).
+                </div>
+            </div>
+            <div class="form-group col-lg-6 col-md-7 mt-4">
+                <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input " id="chAgree" name="chAgree" type="checkbox">
+                    <label class="custom-control-label " for="chAgree">I agree to the <a href="/terms" target="_blank">terms &amp;
+                            conditions</a> Orange. <span class="mandatory-txt">*</span></label>
+                                            </div>
+            </div>
+            <div class="mb-4 form-group col-lg-6 col-md-7 ">
+                <div class="form-group custom-control custom-checkbox col-sm-12 ">
+                    <input name="is_newsletter" type="checkbox" class="custom-control-input" id="is_newsletter" checked="">
+                    <label class="custom-control-label" for="is_newsletter">Receive Coding Academy
+                        Newsletter. </label>
+                </div>
+            </div>
+            <div class="mb-4 form-group col-lg-6 col-md-7">
+                <button class="next1 btn btn-primary  btn-lg btn-block" type="submit">Sign Up</button>
+        </div>
+
+
+
+
+
+
+            <div class="mb-4 form-group col-lg-6 col-md-7">
+                <a href="https://datascience.orangecodingacademy.com/login" style="text-decoration: none"> <input type="button" class="btn btn-secondary  btn-lg btn-block" value="Already have an account?login">
+            </a></div><a href="https://datascience.orangecodingacademy.com/login" style="text-decoration: none">
+        </a></div>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
